@@ -10,7 +10,9 @@
     "spl:metadata": "tsx src/spl/spl_metadata.ts",
     "spl:metadata_init": "tsx src/spl/spl_metadata_init.ts",
     "spl:init": "tsx src/spl/spl_mint_init.ts",
-    "spl:mint": "tsx src/spl/spl_mint.ts"
+    "spl:mint": "tsx src/spl/spl_mint.ts",
+    "spl:mint_more": "tsx src/spl/spl_mint_more.ts",
+    "spl:burn": "tsx src/spl/spl_burn.ts"
   },
   "keywords": [],
   "author": "",

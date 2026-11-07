@@ -1,5 +1,5 @@
 import { createClient, grindKeyPairSigner, lamports, writeKeyPairSigner } from "@solana/kit";
-import { rpcAirdrop, solanaDevnetRpc } from "@solana/kit-plugin-rpc";
+import { solanaDevnetRpc } from "@solana/kit-plugin-rpc";
 import { signerFromFile, airdropPayer } from "@solana/kit-plugin-signer";
 import { tokenProgram } from "@solana-program/token";
 

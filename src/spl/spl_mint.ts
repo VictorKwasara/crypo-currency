@@ -27,7 +27,7 @@ const rpcSubscriptions = createSolanaRpcSubscriptions(
   "wss://api.devnet.solana.com",
 );
 
-const token_decimals = 1_000_000n;
+const token_decimals = 10_000_000_000n;
 
 (async () => {
   //paste your mint address got from spl_init.ts
@@ -53,7 +53,7 @@ const token_decimals = 1_000_000n;
       mint,
       token: ata,
       mintAuthority: signer,
-      amount: 1n * token_decimals,
+      amount: 10n * token_decimals,
     })
 
     const { value: latestBlockhash } = await rpc.getLatestBlockhash().send();
