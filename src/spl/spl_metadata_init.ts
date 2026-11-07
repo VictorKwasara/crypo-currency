@@ -21,7 +21,6 @@ import bs58 from "bs58";
   const mintKey = umi.eddsa.createKeypairFromSecretKey(new Uint8Array(mintWallet));
   const mint = publicKey(mintKey.publicKey)
 
-
   const keypair = umi.eddsa.createKeypairFromSecretKey(new Uint8Array(wallet));
   const signer = createSignerFromKeypair(umi, keypair);
 
@@ -38,8 +37,12 @@ import bs58 from "bs58";
       name: "V currency",
       symbol: "V",
       uri: "https://gateway.irys.xyz/9Lu8G8MZHkyANCouFp78sVzMbgShmkBTU6poqbypA3H4",
-      sellerFeeBasisPoints: 1,
-      creators: null,
+      sellerFeeBasisPoints: 500,
+      creators: [{
+        address: signer.publicKey,
+        verified: true,
+        share: 100,
+      },],
       collection: null,
       uses: null,
     }

@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "NodeNext",
+    "allowImportingTsExtensions": true,
     "moduleResolution": "NodeNext",
     "resolveJsonModule": true, /* Crucial for importing .json files */
     "esModuleInterop": true,
