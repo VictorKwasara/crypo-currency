@@ -1,0 +1,39 @@
+# Dependencies & Node
+node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs & Next.js
+.next/
+out/
+build/
+dist/
+
+# Rust / Anchor Binaries & Artifacts
+.target/
+target/
+**/*.rs.bk
+
+# Secrets, Environment Variables & Keys
+.env
+.env*.local
+keys/
+*.json
+!package.json
+!tsconfig.json
+
+# Logs & Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+.surfpool

@@ -1,0 +1,35 @@
+{
+  "name": "token_metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "keys:create": "tsx src/create_keys.ts",
+    "image:upload": "tsx src/spl/spl_image.ts",
+    "spl:metadata": "tsx src/spl/spl_metadata.ts",
+    "spl:init": "tsx src/spl/spl_mint_init.ts",
+    "spl:mint": "tsx src/spl/spl_mint.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.6.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.6.0",
+    "@metaplex-foundation/umi-uploader-irys": "^1.6.0",
+    "@solana-program/token": "^0.18.0",
+    "@solana/kit": "^8.6.0",
+    "@solana/kit-plugin-rpc": "^0.23.0",
+    "@solana/kit-plugin-signer": "^0.23.0",
+    "@solana/spl-token": "^0.4.15",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
