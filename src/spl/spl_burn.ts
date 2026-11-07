@@ -1,4 +1,4 @@
-import { createClient, generateKeyPairSigner } from "@solana/kit";
+import { createClient } from "@solana/kit";
 import { solanaDevnetRpc } from "@solana/kit-plugin-rpc";
 import { signerFromFile } from "@solana/kit-plugin-signer";
 

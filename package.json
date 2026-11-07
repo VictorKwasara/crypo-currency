@@ -12,7 +12,8 @@
     "spl:init": "tsx src/spl/spl_mint_init.ts",
     "spl:mint": "tsx src/spl/spl_mint.ts",
     "spl:mint_more": "tsx src/spl/spl_mint_more.ts",
-    "spl:burn": "tsx src/spl/spl_burn.ts"
+    "spl:burn": "tsx src/spl/spl_burn.ts",
+    "spl:update_authority": "tsx src/spl/spl_update_authority.ts"
   },
   "keywords": [],
   "author": "",
